@@ -1,0 +1,22 @@
+﻿<Configuration>
+  <Info Description="2019ProPlus für die Schulen" />
+  <Add OfficeClientEdition="32" Channel="PerpetualVL2019" SourcePath="O:\SOURCES" AllowCdnFallback="FALSE" ForceUpgrade="TRUE">
+    <Product ID="ProPlus2019Volume">
+      <Language ID="de-de" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="PinIconsToTaskbar" Value="TRUE" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Updates Enabled="FALSE" />
+  <RemoveMSI All="TRUE" />
+  <AppSettings>
+    <Setup Name="Company" Value="Landkreis Würzburg" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="TRUE" />
+  <Logging Level="Standard" Path="C:\setup_office2019.log" />
+</Configuration>

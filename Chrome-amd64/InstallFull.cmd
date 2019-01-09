@@ -1,0 +1,1 @@
+call "%~dp0InstallBasic.cmd"
